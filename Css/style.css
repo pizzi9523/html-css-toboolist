@@ -1,5 +1,28 @@
+/*common*/
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body{
+  width: 90%;
+  margin: auto;
+}
+
+
+/*header*/
+#site_header{
+  margin-top: 5rem;
+  border-top: 1px solid lightgrey;
+ }
+
+#titolo{
+  display: inline-block;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#logo{
+  margin: 10px 5px;
 }
