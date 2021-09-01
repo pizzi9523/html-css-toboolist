@@ -10,6 +10,11 @@ body{
   margin: auto;
 }
 
+#site_main{
+  background-color: lightgrey;
+  height: 700px;
+}
+
 
 /*header*/
 #site_header{
@@ -25,4 +30,34 @@ body{
 
 #logo{
   margin: 10px 5px;
+}
+
+/*main*/
+.container{
+  height: 500px;
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  border-radius: 5px;
+
+}
+
+.pulsanti{
+  padding: 20px 40px;
+  border-bottom: 1px solid lightgrey;
+}
+#add_task{
+  background-color: #47ADF1;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+
+#add_section{
+  background-color: white;
+  color: lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
 }
