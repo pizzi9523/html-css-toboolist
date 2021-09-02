@@ -6,12 +6,13 @@
 }
 
 body{
-  background-color: lightgrey;
+  background-color: #F6F8F9;
   font-family: 'Catamaran', sans-serif;
 }
 
 p{
   font-size: 20px;
+  padding-left: 7px;
 }
 
 li{
@@ -21,7 +22,7 @@ li{
 
 /*header*/
 #site_header{
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid #C5CBD0;
   background-color: white;
   height: 70px;
   line-height: 70px;;
@@ -42,7 +43,6 @@ li{
 /*main*/
 #site_main{
   margin-top: 5rem;
-  background-color: lightgrey;
   height: 700px;
 }
 
@@ -58,22 +58,22 @@ li{
 /*Pulsanti*/
 .pulsanti{
   padding: 20px 40px;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #C5CBD0;
 }
 #add_task{
   background-color: #47ADF1;
   color: white;
   padding: 5px;
   border-radius: 5px;
-  border: 1px solid lightgrey;
+  border: 1px solid #C5CBD0;
 }
 
 #add_section{
   background-color: white;
-  color: lightgrey;
+  color: #C5CBD0;
   padding: 5px;
   border-radius: 5px;
-  border: 1px solid lightgrey;
+  border: 1px solid #C5CBD0;
 }
 
 /*New Task*/
@@ -81,16 +81,16 @@ li{
   padding: 20px 40px;
 }
 .fatto{
-  color: green;
-  border: 1px solid green;
+  color: #65C0A9;
+  border: 1px solid #65C0A9;
   border-radius: 50%;
   font-size: 10px;
   padding: 1px 4px;
 }
 
 .non_fatto{
-  color: red;
-  border: 1px solid red;
+  color: #EB5851;
+  border: 1px solid #EB5851;
   border-radius: 50%;
   font-size: 10px;
   padding: 1px 4px;
